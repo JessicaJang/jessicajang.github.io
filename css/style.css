@@ -100,7 +100,6 @@ h3{ font-size: var(--fs-h3)}
 
 .section__title{
     margin-bottom: .25em;
-
 }
 
 .section__title--intro{
@@ -309,8 +308,13 @@ header{
 }
 
 .service{
-    max-width: 500px;
+    /* max-width: 500px; */
+    width: 500px;
     margin: 0 auto;
+}
+
+.service-list {
+    text-align: left;
 }
 
 @media(min-width: 800px){
